@@ -3,7 +3,7 @@
 `[2] Add Dependecies Spring Web,JPA and MySQL Driver and export, then extract the zip
 `[3] Open Intellij and select the folder extracted
 `[4] At .com... create packages: Controller, Exception, Model, Repository
-`[5] At Model, create Java file and add @Entity at top of user , name User.Java, add Private Long id, strings username, name email, then use Getter Setters
+`[5] At Model, create Java file and add @Entity at top of user  name User.Java, @Id and @GeneratedValue over the string and longs, add Private Long id, strings username, name email, then use Getter Setters
 `[6] Add Repository, add UserRepository.java file and choose interface, type public interface UserRepository extends JpaRepository<User,Long> 
 `[7] At application properties type: spring.jpa.hibernate.ddl-auto=update
 spring.datasource.url=jdbc:mysql://localhost:3306/Swam
